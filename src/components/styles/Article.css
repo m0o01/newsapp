@@ -1,0 +1,47 @@
+.article-loader{
+    padding-top: 13%;
+    flex: 1;
+    height: 460px;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.article-body{
+    padding: 3rem;
+}
+
+.article-header{
+    display: flex;
+    align-items: stretch;
+}
+
+.article-image {
+    width: 30%;
+    height: 280px;
+    border-radius: 10px !important;
+    background-color: grey;
+}
+
+.description{
+    width: 100%;
+    margin-left: 1rem;
+    padding: 2rem;
+    font-size: 26px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.description p {
+    padding-top: 4rem;
+}
+
+.content {
+    padding: 2rem;
+    font-size: 24px;
+    line-height: 3rem;
+}
