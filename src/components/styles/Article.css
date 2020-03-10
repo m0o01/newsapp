@@ -1,47 +1,61 @@
-.article-loader{
-    padding-top: 13%;
-    flex: 1;
-    height: 460px;
-    justify-content: center;
-    text-align: center;
-    font-size: 22px;
+@media screen and (max-width: 600px) {
+  .article-header {
+    flex-direction: column;
+  }
+  .article-image {
+    width: 100% !important;
+  }
+  .description {
+    margin-left: 0px !important;
+    margin-top: 10px;
+  }
 }
 
-
-.article-body{
-    padding: 3rem;
+.article-loader {
+  padding-top: 13%;
+  flex: 1;
+  height: 460px;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
 }
 
-.article-header{
-    display: flex;
-    align-items: stretch;
+.article-body {
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.article-header {
+  display: flex;
+  align-items: stretch;
 }
 
 .article-image {
-    width: 30%;
-    height: 280px;
-    border-radius: 10px !important;
-    background-color: grey;
+  width: 30%;
+  height: 100%;
+  border-radius: 10px !important;
+  background-color: grey;
 }
 
-.description{
-    width: 100%;
-    margin-left: 1rem;
-    padding: 2rem;
-    font-size: 26px;
-    text-align: center;
-    display: inline-block;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
+.description {
+  width: 100%;
+  padding: 2rem;
+  font-size: 26px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 .description p {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 .content {
-    padding: 2rem;
-    font-size: 24px;
-    line-height: 3rem;
+  margin-top: 1.5rem;
+  padding: 2px;
+  font-size: 24px;
+  line-height: 3rem;
 }
